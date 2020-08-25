@@ -12,16 +12,12 @@ public class InjectSimpleConfig {
     private final boolean programmer = false;
     private final long ageInSecond = 1_234_567_891_011_121_314L;
 
-    public String getName1() {
-        return name1;
-    }
-
-    public long getAgeInSecond() {
-        return ageInSecond;
-    }
-
     public String getName() {
         return name;
+    }
+
+    public String getName1() {
+        return name1;
     }
 
     public int getAge() {
@@ -34,5 +30,9 @@ public class InjectSimpleConfig {
 
     public boolean isProgrammer() {
         return programmer;
+    }
+
+    public long getAgeInSecond() {
+        return ageInSecond;
     }
 }

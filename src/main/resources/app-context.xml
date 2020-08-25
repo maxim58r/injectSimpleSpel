@@ -4,17 +4,18 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-<!--    <bean id="injectSimpleConfig"-->
-<!--          class="ru.max.InjectSimpleConfig"/>-->
-<!--    <bean id="injectSimpleSpel"-->
-<!--          class="ru.max.InjectSimpleSpel">-->
-<!--        <property name="name" value="#{injectSimpleConfig.name1}"/>-->
-<!--        <property name="age" value="#{injectSimpleConfig.age}"/>-->
-<!--        <property name="height" value="#{injectSimpleConfig.height}"/>-->
-<!--        <property name="programmer" value="#{injectSimpleConfig.programmer}"/>-->
-<!--        <property name="ageInSecond" value="#{injectSimpleConfig.ageInSecond}"/>-->
-<!--    </bean>-->
-    <context:component-scan
-            base-package="ru.max">
-    </context:component-scan>
+<!--    <bean id="injectSimpleConfig"
+          class="ru.max.InjectSimpleConfig"/>
+    <bean id="injectSimpleSpel"
+          class="ru.max.InjectSimpleSpel">
+        <property name="name" value="#{injectSimpleConfig.name1}"/>
+        <property name="age" value="#{injectSimpleConfig.age}"/>
+        <property name="height" value="#{injectSimpleConfig.height}"/>
+        <property name="programmer" value="#{injectSimpleConfig.programmer}"/>
+        <property name="ageInSecond" value="#{injectSimpleConfig.ageInSecond}"/>
+    </bean>-->
+    
+<!--    <context:component-scan-->
+<!--            base-package="ru.max">-->
+<!--    </context:component-scan>-->
 </beans>
